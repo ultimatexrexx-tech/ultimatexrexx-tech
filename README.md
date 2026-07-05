@@ -14,6 +14,14 @@
   <img src="https://img.shields.io/badge/Status-Available%20for%20Work-brightgreen?style=for-the-badge" alt="status"/>
 </p>
 
+> ### ⚠️ Images not loading? Read this first
+> Sabhi animated banners (typing SVG, stats card, streak, snake, trophies) **third-party services** (Vercel/Heroku) se live-generate hote hain — GitHub khud unhe host nahi karta. Agar tumhe blank/broken image dikh raha hai, common reasons ye hain:
+> 1. **ISP/network block** — India me kai baar `vercel.app` / `herokuapp.com` domains ISP level par block ho jate hain. Mobile data / VPN pe khol ke check karo.
+> 2. **GitHub's image cache (camo)** — ek baar fail hone par GitHub kuch der ke liye us image ko cache kar leta hai. Fix: image URL ke end me `&t=1` ya koi random number add karo, commit push karo, aur 2-3 min wait karo.
+> 3. **Repo setup galat** — special profile README dikhane ke liye repo ka naam **exactly** tumhare username jaisa hona chahiye (`ultimatexrexx-tech/ultimatexrexx-tech`), repo **public** ho, aur `README.md` root me ho.
+>
+> Isi wajah se maine niche do **self-hosted animated SVGs** (Earth Globe 🌍 aur Gaming Banner 🎮) bhi bana di hain jo tumhare **apne repo** se load hongi (`raw.githubusercontent.com` se) — ye GitHub ka apna hi domain hai, isliye ye kabhi block/broken nahi hongi. Setup steps README ke end me hain.
+
 ---
 
 ### 🧑‍💻 About Me
@@ -31,6 +39,37 @@ fun_fact: I turn ☕ into 💻
 - 💬 Ask me about **HTML, CSS, JavaScript, React, Android, Backend Dev**
 - ⚡ Fun fact: **I love building things that solve real problems**
 - 📫 Reach me via the links below
+
+---
+
+### 🌍 Around the World
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/ultimatexrexx-tech/ultimatexrexx-tech/main/assets/earth.svg" width="70%" alt="Rotating Earth"/>
+</div>
+
+<p align="center"><i>Self-hosted animated Earth 🌍 — loads directly from this repo, no external service required.</i></p>
+
+---
+
+### 🎮 Gamer Mode: ON
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/ultimatexrexx-tech/ultimatexrexx-tech/main/assets/gaming.svg" width="90%" alt="Gaming Banner"/>
+</div>
+
+<div align="center">
+
+![Now Playing](https://img.shields.io/badge/🎮_Now_Playing-Debugging_Life-8E2DE2?style=for-the-badge)
+![Steam](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)
+![PlayStation](https://img.shields.io/badge/PlayStation-003791?style=for-the-badge&logo=playstation&logoColor=white)
+![Xbox](https://img.shields.io/badge/Xbox-107C10?style=for-the-badge&logo=xbox&logoColor=white)
+![Valorant](https://img.shields.io/badge/Valorant-FF4655?style=for-the-badge&logo=valorant&logoColor=white)
+![BGMI](https://img.shields.io/badge/BGMI-F4B400?style=for-the-badge&logo=battledotnet&logoColor=white)
+
+</div>
+
+> 💡 Discord status widget bhi add kar sakte ho (agar Discord id ho) — [Lanyard API](https://github.com/Phineas/lanyard) use karke apna **live "Now Playing" game status** bhi profile pe dikha sakte ho.
 
 ---
 

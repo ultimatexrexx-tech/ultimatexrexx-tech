@@ -20,25 +20,33 @@
 > 2. **GitHub's image cache (camo)** — ek baar fail hone par GitHub kuch der ke liye us image ko cache kar leta hai. Fix: image URL ke end me `&t=1` ya koi random number add karo, commit push karo, aur 2-3 min wait karo.
 > 3. **Repo setup galat** — special profile README dikhane ke liye repo ka naam **exactly** tumhare username jaisa hona chahiye (`ultimatexrexx-tech/ultimatexrexx-tech`), repo **public** ho, aur `README.md` root me ho.
 >
-> Isi wajah se maine niche do **self-hosted animated SVGs** (Earth Globe 🌍 aur Gaming Banner 🎮) bhi bana di hain jo tumhare **apne repo** se load hongi (`raw.githubusercontent.com` se) — ye GitHub ka apna hi domain hai, isliye ye kabhi block/broken nahi hongi. Setup steps README ke end me hain.
+> Isi wajah se maine niche **self-hosted animated SVGs** (Earth 🌍, Gaming 🎮, Matrix 🖥️) bhi bana di hain jo tumhare **apne repo** se load hongi (`raw.githubusercontent.com` se) — ye GitHub ka apna hi domain hai, isliye ye kabhi block/broken nahi hongi. Setup steps README ke end me hain.
 
 ---
 
 ### 🧑‍💻 About Me
 
-```yaml
+\`\`\`yaml
 name: UltimateXRexx
 role: Web Developer | App Developer | Open Source Contributor
 location: India 🇮🇳
 currently_learning: Advanced Web & App Development
 fun_fact: I turn ☕ into 💻
-```
+\`\`\`
 
 - 🔭 I'm currently working on **web apps & mobile apps**
 - 🌱 I'm currently learning **advanced backend & app development**
 - 💬 Ask me about **HTML, CSS, JavaScript, React, Android, Backend Dev**
 - ⚡ Fun fact: **I love building things that solve real problems**
 - 📫 Reach me via the links below
+
+---
+
+### 🖥️ Terminal Mode
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/ultimatexrexx-tech/ultimatexrexx-tech/main/assets/matrix.svg" width="90%" alt="Matrix Code Rain"/>
+</div>
 
 ---
 
@@ -99,6 +107,45 @@ fun_fact: I turn ☕ into 💻
 
 </div>
 
+#### ☁️ Cloud & DevOps
+
+<div align="center">
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Nginx](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</div>
+
+#### 🤖 AI & LLM
+
+<div align="center">
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+
+</div>
+
+#### 📈 Skills Graph
+
+\`\`\`text
+Frontend Development   ████████████████████░░░░  82%
+Backend Development    ███████████████████░░░░░  78%
+Mobile App Dev         ████████████████░░░░░░░░  68%
+UI/UX Design           ██████████████░░░░░░░░░░  60%
+DevOps & Cloud         ████████████░░░░░░░░░░░░  52%
+AI / LLM Integration   ██████████████████░░░░░░  74%
+\`\`\`
+
 ---
 
 ### 📊 GitHub Stats
@@ -122,6 +169,17 @@ fun_fact: I turn ☕ into 💻
 <img src="https://github-profile-trophy.vercel.app/?username=ultimatexrexx-tech&theme=radical&no-frame=true&row=1&column=7&margin-w=10" width="100%"/>
 </div>
 
+#### 🎖️ Achievements
+
+<div align="center">
+
+![Stars](https://img.shields.io/github/stars/ultimatexrexx-tech?style=for-the-badge&color=8E2DE2&label=Total%20Stars)
+![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/ultimatexrexx-tech&label=Public%20Repos&query=$.public_repos&style=for-the-badge&color=4A00E0)
+![Commits](https://img.shields.io/badge/Commits-9999%2B-brightgreen?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-blueviolet?style=for-the-badge)
+
+</div>
+
 ---
 
 ### 🐍 Contribution Snake
@@ -132,7 +190,7 @@ fun_fact: I turn ☕ into 💻
 
 > 💡 To enable the snake animation, add the **GitHub Action** below in a file at `.github/workflows/snake.yml` in a repo named exactly like your username (`ultimatexrexx-tech/ultimatexrexx-tech`):
 >
-> ```yaml
+> \`\`\`yaml
 > name: generate animation
 > on:
 >   schedule:
@@ -158,7 +216,7 @@ fun_fact: I turn ☕ into 💻
 >           build_dir: dist
 >         env:
 >           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-> ```
+> \`\`\`
 
 ---
 
@@ -185,6 +243,56 @@ fun_fact: I turn ☕ into 💻
 </div>
 
 > ⚠️ Update the links above with your real social/portfolio URLs.
+
+<details>
+<summary>🎵 Optional: Spotify / Discord / Buy Me a Coffee (click to expand)</summary>
+<br>
+
+\`\`\`md
+<!-- Spotify Now Playing (needs your own Spotify token — see spotify-github-profile repo) -->
+[![Spotify](https://novatorem-ultimatexrexx-tech.vercel.app/api/spotify)](https://open.spotify.com)
+
+<!-- Discord Live Presence via Lanyard (needs your Discord user ID) -->
+[![Discord Presence](https://lanyard.cnrad.dev/api/YOUR_DISCORD_ID)](https://discord.com)
+
+<!-- Buy Me a Coffee -->
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/ultimatexrexx-tech)
+\`\`\`
+
+Replace `YOUR_DISCORD_ID` and set up [spotify-github-profile](https://github.com/kittinan/spotify-github-profile) if you want these live.
+</details>
+
+---
+
+### 📱 Apps Developed
+
+<div align="center">
+
+| App | Platform | Tech Used | Status |
+|---|---|---|---|
+| 🚀 App One | Android / iOS | Flutter, Firebase | ✅ Live |
+| 🛒 App Two | Android | Kotlin, Room DB | 🚧 In Progress |
+| 💬 App Three | Cross-platform | React Native | ✅ Live |
+
+</div>
+
+> ⚠️ Replace with your actual apps, links, and play-store/app-store badges.
+
+---
+
+### 🌐 Web Projects
+
+<div align="center">
+
+| Project | Description | Stack | Link |
+|---|---|---|---|
+| 🌟 Portfolio Site | Personal developer portfolio | React, Tailwind | [Visit →](https://ultimatexrexx-tech.github.io) |
+| 🛍️ E-commerce App | Full-stack shopping platform | MERN Stack | [Visit →](#) |
+| 📊 Dashboard UI | Admin analytics dashboard | Next.js, Chart.js | [Visit →](#) |
+
+</div>
+
+> ⚠️ Replace links/descriptions with your real projects.
 
 ---
 
@@ -215,9 +323,37 @@ fun_fact: I turn ☕ into 💻
 
 ---
 
-<div align="center">
+### 🛠️ Setup Guide (Step-by-Step)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=120&section=footer"/>
+**Step 1 — Create the special repo**
+Repo ka naam **exactly** tumhare username jaisa hona chahiye: `ultimatexrexx-tech/ultimatexrexx-tech`, aur repo **Public** hona chahiye. GitHub is repo ke README ko automatically tumhare profile page par dikhata hai.
+
+**Step 2 — Add this file**
+Is `README.md` ko repo ke root me daal do (replace/commit).
+
+**Step 3 — Upload the self-hosted animations**
+Repo me `assets` naam ka folder banao aur usme ye 3 files upload karo:
+\`\`\`
+assets/earth.svg
+assets/gaming.svg
+assets/matrix.svg
+\`\`\`
+(Ye teeno files chat me alag se diye gaye hain — download karke seedha upload kar dena.)
+
+**Step 4 — Branch name check karo**
+Agar tumhari default branch `main` nahi balki `master` hai, to README ke andar `main` ko `master` se replace kar dena in teeno image URLs me.
+
+**Step 5 — Enable the snake animation (optional but recommended)**
+Upar diye gaye `snake.yml` workflow ko `.github/workflows/snake.yml` me daal do — pehli baar Actions tab me ja kar manually run kar dena (`Run workflow` button).
+
+**Step 6 — Real info daalo**
+- Social links (LinkedIn/Instagram/Twitter/Gmail/Portfolio) apne actual URLs se replace karo
+- Pinned projects, Apps, Web Projects section me apne real details daalo
+
+**Step 7 — Test**
+Commit push karne ke baad 1-2 min wait karo, fir apna profile hard refresh (Ctrl+Shift+R) kar ke check karo.
+
+---
 
 **⭐ From [ultimatexrexx-tech](https://github.com/ultimatexrexx-tech) — Thanks for visiting my profile!**
 
